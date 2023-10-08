@@ -1,23 +1,28 @@
 /* index.html 1p */
 #main {  /* index.html 배경 */
-    background-image: url('../sloney/image/Lo-Fi Coffee, Bogdan mB0sco.gif');
+    background-image: url('../image/Lo-Fi Coffee, Bogdan mB0sco.gif');
     background-repeat: no-repeat;
     background-size: cover;
 }
 #title {
     font-size: 50px;
-    color:azure;
     font-family: 'Nabla';
     text-indent: 1em;
 }
 .indexbtn {
-    background-image: url('../sloney/image/circle.png');
-    background-repeat: no-repeat;
-    /* border: none; */
-    height: 30px;
+    background-color:transparent;
+    border: none;
+    width: 32px;
+    height: 32px;
     cursor: pointer;
     position:fixed;
-    top:500px;
+    top:515px;
     left:30%;
-    object-fit: fill;
+}
+/* setup.html */
+.setup {  /* setup.html 배경 */
+    background: rgba(0, 0, 0, 0.7) url('../image/Lo-Fi Coffee, Bogdan mB0sco.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
 }
