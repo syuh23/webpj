@@ -1,0 +1,29 @@
+/* index.html 1p */
+#main {  /* index.html 배경 */
+    background-image: url('../sloney/image/Lo-Fi Coffee, Bogdan mB0sco.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#title {
+    font-size: 50px;
+    color:azure;
+    font-family: 'Nabla';
+    text-indent: 1em;
+}
+.indexbtn {
+    background-image: url('../sloney/image/circle.png');
+    background-repeat: no-repeat;
+    /* border: none; */
+    /* I love you Seung
+    I don't know how to solve this problem
+    I'm not good at making web. Sry. 
+    But i will help you. 
+    I love you. */
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position:fixed;
+    top:500px;
+    left:30%;
+    object-fit: fill;
+}
