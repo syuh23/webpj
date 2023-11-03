@@ -1,6 +1,6 @@
 /* index.html 1p */
 #main {  /* index.html 배경 */
-    background-image: url('./image/Lo-Fi Coffee, Bogdan mB0sco.gif');
+    background-image: url('/image/Lo-Fi Coffee, Bogdan mB0sco.gif');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,7 +21,7 @@
 }
 /* setup.html */
 .setup {  /* setup.html 배경 */
-    background: rgba(0, 0, 0, 0.7) url('./image/Lo-Fi Coffee, Bogdan mB0sco.gif');
+    background: rgba(0, 0, 0, 0.7) url('/image/Lo-Fi Coffee, Bogdan mB0sco.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
