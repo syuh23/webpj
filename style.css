@@ -1,6 +1,6 @@
 /* index.html 1p */
 #main {  /* index.html 배경 */
-    background-image: url('/image/Lo-Fi Coffee, Bogdan mB0sco.gif');
+    background-image: url('image/Lo-Fi Coffee, Bogdan mB0sco.gif');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,29 +21,38 @@
 }
 /* setup.html */
 .setup {  /* setup.html 배경 */
-    background: rgba(0, 0, 0, 0.7) url('/image/Lo-Fi Coffee, Bogdan mB0sco.gif');
+    background: rgba(0, 0, 0, 0.7) url('image/Lo-Fi Coffee, Bogdan mB0sco.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
 }
-.container {
-    /*overflow: hidden;*/
-    /* position: relative; */
+#navi {
     text-align: center;
 }
-.container img {
-    /* position: absolute; */
-    /* float: left; */
+#navi > li {
+    display: inline-block;
+    position: relative;
+}
+#navi > li > a {
+    display: block; 
+    position: relative;
+    /* padding-bottom: 20px; */
+    margin: 100px;
+}
+#navi > li > a > img {
     width: 225px;
     height: 225px;
-    margin: 100px;
+    margin-bottom: 20px;
+}
+#navi > li > a > span {
+    position: relative;
+    transform: translate(-50%, 0);
+    line-height: 1.462em;
+    white-space: nowrap; 
+    color: white;
+    font-size: 120%;
+    /*글꼴 바꾸고 싶음*/
 }
 #bts {
     object-fit: cover;
-}
-.text {
-    text-align: center;
-}
-.text h3 {
-    size: 100px;
 }
