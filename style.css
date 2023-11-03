@@ -9,13 +9,16 @@
     font-family: 'Nabla';
     text-indent: 1em;
 }
+header a {
+    text-decoration-line: none;
+}
 .indexbtn {
     background-color:transparent;
     border: none;
     width: 32px;
     height: 32px;
     cursor: pointer;
-    position:fixed;
+    position: fixed;
     top:515px;
     left:30%;
 }
@@ -26,18 +29,26 @@
     background-size: cover;
     background-blend-mode: darken;
 }
-#navi {
+article h1, footer h1 {
+    font-family: 'Nabla';
+    position: relative;
+    top: 50px;
+    left: 100px;
+    font-size: 200%;
+}
+#navi, #youtube {
     text-align: center;
 }
-#navi > li {
+#navi > li, #youtube > li {
     display: inline-block;
     position: relative;
 }
-#navi > li > a {
+#navi > li > a, #youtube > li > a {
     display: block; 
     position: relative;
-    /* padding-bottom: 20px; */
-    margin: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-decoration-line: none;
 }
 #navi > li > a > img {
     width: 225px;
@@ -46,13 +57,19 @@
 }
 #navi > li > a > span {
     position: relative;
-    transform: translate(-50%, 0);
-    line-height: 1.462em;
-    white-space: nowrap; 
     color: white;
-    font-size: 120%;
+    font-size: 150%;
     /*글꼴 바꾸고 싶음*/
 }
 #bts {
     object-fit: cover;
+}
+#youtube > li > a > img {
+    width: 70px;
+    height: 70px;
+}
+#youtube > li > a > span {
+    position: relative;
+    color: white;
+    font-size: 100%;
 }
