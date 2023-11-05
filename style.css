@@ -20,7 +20,7 @@ header a {
     height: 32px;
     cursor: pointer;
     position: fixed;
-    top: 515px;
+    top: 70%;
     left: 30%;
 }
 .questionbtn {
@@ -86,12 +86,12 @@ header a {
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
-    overflow: hidden;
+    overflow: scroll;
 }
 article h1, footer h1 {
     font-family: 'Nabla';
     position: relative;
-    left: 100px;
+    left: 10%;
     font-size: 200%;
 }
 #navi, #youtube {
@@ -100,6 +100,7 @@ article h1, footer h1 {
 #navi > li, #youtube > li {
     display: inline-block;
     position: relative;
+    margin-bottom: 3%;
 }
 #navi > li > a, #youtube > li > a {
     display: block; 
@@ -112,6 +113,7 @@ article h1, footer h1 {
     width: 225px;
     height: 225px;
     margin-bottom: 20px;
+    border-radius: 15px;
 }
 #navi > li > a > span {
     position: relative;
@@ -125,6 +127,7 @@ article h1, footer h1 {
 #youtube > li > a > img {
     width: 70px;
     height: 70px;
+    border-radius: 15px;
 }
 #youtube > li > a > span {
     position: relative;
