@@ -4,21 +4,63 @@
         <meta charset="utf-8">
         <title>SLONEY</title>
         <link href="style.css" rel="stylesheet">
-        <!-- 글꼴 -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nabla&display=swap">
-        <!-- 아이콘 -->
+        <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Nabla&family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">  
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     </head>
     <body id="btspage">
         <header>
             <a href="index.html"><h1 id="title"><b>SLONEY</b></h1></a>
         </header>
-        <section>
-            <article>
-                
-            </article>
-        </section>
+        <nav>
+            <button class="gamebtn" type="button" onclick="location.href='gamemusic.html'">
+                <i class="fa-solid fa-gamepad fa-2xl" style="color: #eacd12;"></i></button>
+            <button class="rebtn" type="button" onclick="location.href='setup.html'">
+                <i class="fas fa-regular fa-reply fa-2xl" style="color: #f22c2c;"></i></button>
+    
+        </nav>
+        <div id="layout">
+            <div id="left">
+                <ul class="list">
+                    <li id="first">
+                        <img src="image/btsimg.jpg">
+                        <span id="name"><br>BTS</span>
+                        <div>
+                            <br><p>엄청난 퍼포먼스와 무대를 압도하는 파워를 가짐<br>
+                                그룹의 멤버 대부분이 작사와 작곡, 프로듀싱에 참여하여 가사가 의미있고 예쁨</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <ul class="list">
+                <ul class="mood">
+                    <li id="rainy"><i class="fas fa-regular fa-cloud-rain fa-bounce" style="color: #1753ba;"></i>&nbsp;&nbsp;RAINY DAY</li>
+                    <ul>
+                        <li>I NEED U</li>
+                        <li>Save ME</li>
+                        <li>RUN</li>
+                    </ul>
+                </ul>
+                <br><br>
+                <ul class="mood">
+                    <li id="study"><i class="fa-solid fa-pencil fa-bounce" style="color: #fae829;"></i>&nbsp;&nbsp;STUDY DAY</li>
+                    <ul>
+                        <li>Butterfly</li>
+                        <li>Answer : Love Myself</li>
+                        <li>Magic Shop</li>
+                    </ul>
+                </ul>
+                <br><br>
+                <ul class="mood">
+                    <li id="happy"><i class="fa-solid fa-heart fa-bounce" style="color: #f76464;"></i>&nbsp;&nbsp;HAPPY DAY</li>
+                    <ul>
+                        <li>Fire</li>
+                        <li>Outro : Wings</li>
+                        <li>Dionysus</li>
+                    </ul>
+                </ul>
+            </ul>
+        </div>
     </body>
 </html>

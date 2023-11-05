@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SLONEY</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Nabla&family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body id="question">
+        <header>
+            <a href="index.html"><h1 id="title"><b>SLONEY</b></h1></a>
+        </header>
+        <section>
+            <form method="post">
+                <label for="name">이름&nbsp;&nbsp;</label>
+                <input id="name" type="text"><br><br>
+
+                <label for="password">비밀번호&nbsp;&nbsp;</label>
+                <input id="password" type="password"><br><br>
+
+                <label for="gender">성별&nbsp;&nbsp;</label>
+                <input class="gender" id="man" type="radio" name="gender" value="m"> 
+                <label for="man">남자</label> 
+                <input class="gender" id="woman" type="radio" name="gender" value="w">
+                <label for="woman">여자</label><br><br>
+
+                <label for="music">선호하는 음악 장르</label><br>
+                <input class="music" id="lofi" type="checkbox" name="music" value="lofi">
+                <label for="lofi">Lo-fi</label>
+                <input class="music" id="pop" type="checkbox" name="music" value="pop">
+                <label for="pop">pop</label>
+                <input class="music" id="acoustic" type="checkbox" name="music" value="acoustic">
+                <label for="acoustic">Acoustic</label> <br>
+                <input class="music" id="electronic" type="checkbox" name="music" value="electronic">
+                <label for="electronic">Electronic</label>
+                <input class="music" id="hiphop" type="checkbox" name="music" value="hiphop">
+                <label for="hiphop">Hip-hop</label>
+                <input class="music" id="jazz" type="checkbox" name="music" value="jazz">
+                <label for="jazz">Jazz</label> <br><br>
+
+                <label for="textarea">한 마디</label><br>
+                <textarea id="textarea" cols="80px" rows="2em">   하고싶은 말을 자유롭게 써주세요</textarea><br><br>
+
+                <a href="#" id="submitbtn">SUBMIT</a>
+            </form>
+        </section>
+    </body>
+</html>

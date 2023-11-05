@@ -6,7 +6,7 @@
         <link href="style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nabla&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Nabla&family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">  
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <script src="https://kit.fontawesome.com/cc64b06dea.js" crossorigin="anonymous"></script>
     </head>
@@ -14,26 +14,51 @@
         <header>
             <a href="index.html"><h1 id="title"><b>SLONEY</b></h1></a>
         </header>
-        <section>
-            <article>
-                <ul>
-                <li>
-                    <img src="image/puthimg.jpg">
-                    <span id="name"><br>Charlie Puth</span>
-                </li>
-            </ul>
-            </article>
-            <article>
-                <p>찰리푸스의 작곡 실력과 독보적인 음색에 반함<br>
-                특히, 절대음감을 가지고 있어 일상 소음으로 곡을 금방 만들어 내는 모습이 환상적임</p>
-            </article>
-        </section>
-        <aside>
-            <ul>
-                <li><i class="fas fa-duotone fa-cloud-rain fa-bounce" style="--fa-primary-color: #306daa; --fa-secondary-color: #98999a;"></i></li>
-                <li><i class="fas fa-duotone fa-pencil fa-bounce" style="--fa-primary-color: #f4e117; --fa-secondary-color: #98999a;"></i></li>
-                <li><i class="fa-solid fa-heart fa-bounce" style="color: #f76464;"></i></li>
-            </ul>
-        </aside>
+        <nav>
+            <button class="gamebtn" type="button" onclick="location.href='gamemusic.html'">
+                <i class="fa-solid fa-gamepad fa-2xl" style="color: #eacd12;"></i></button>
+            <button class="rebtn" type="button" onclick="location.href='setup.html'">
+                <i class="fas fa-regular fa-reply fa-2xl" style="color: #f22c2c;"></i></button>
+            </nav>
+            <div id="layout">
+                <ul class="list">
+                    <li id="first">
+                        <img src="image/puthimg.jpg">
+                        <span id="name"><br>Charlie Puth</span>
+                    </li>
+                    <li id="second">
+                        <br><p>찰리푸스의 작곡 실력과 독보적인 음색에 반함<br>
+                            특히, 절대음감을 가지고 있어 일상 소음으로 곡을 금방 만들어 내는 모습이 환상적임</p>
+                    </li>
+                </ul>
+                <ul class="list">
+                    <ul class="mood">
+                        <li id="rainy"><i class="fas fa-regular fa-cloud-rain fa-bounce" style="color: #1753ba;"></i>&nbsp;&nbsp;RAINY DAY</li>
+                        <ul>
+                            <li>Attention</li>
+                            <li>How Long</li>
+                            <li>I Don't Think That I Like Her</li>
+                        </ul>
+                    </ul>
+                    <br><br>
+                    <ul class="mood">
+                        <li id="study"><i class="fa-solid fa-pencil fa-bounce" style="color: #fae829;"></i>&nbsp;&nbsp;STUDY DAY</li>
+                        <ul>
+                            <li>The Way I Am</li>
+                            <li>Suffer</li>
+                            <li>Up All Night</li>
+                        </ul>
+                    </ul>
+                    <br><br>
+                    <ul class="mood">
+                        <li id="happy"><i class="fa-solid fa-heart fa-bounce" style="color: #f76464;"></i>&nbsp;&nbsp;HAPPY DAY</li>
+                        <ul>
+                            <li>Left and Right</li>
+                            <li>Light Switch</li>
+                            <li>LA Girls</li>
+                        </ul>
+                    </ul>
+                </ul>
+            </div>
     </body>
 </html>

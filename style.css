@@ -1,5 +1,5 @@
-/* index.html 1p */
-#main {  /* index.html 배경 */
+/* index.html */
+#main {
     background-image: url('image/Lo-Fi Coffee, Bogdan mB0sco.gif');
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,8 +23,65 @@ header a {
     top: 515px;
     left: 30%;
 }
+.questionbtn {
+    background-color:transparent;
+    border: none;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    position: fixed;
+    top: 50px;
+    left: 90%;
+}
+/*question.html*/
+#question {
+    background: rgba(0, 0, 0, 0.7) url('image/Lo-Fi Coffee, Bogdan mB0sco.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    overflow: hidden;
+}
+#question section {
+    color: white;
+    font-family: 'Nanum Gothic';
+    font-size: 120%;
+}
+#question form {
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    line-height: 1.5em;
+}
+#question input, #question textarea {
+    background-color: #f0d264;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    font-family: 'Nanum Gothic';
+    color: whitesmoke;
+}
+#submitbtn {
+    box-sizing: border-box;
+    margin: 9px;
+    background-color: #f0d264;
+    border-radius: 10px;
+    position: relative;
+    border: 0;
+    padding: 15px 25px;
+    display: inline-block;
+    text-align: center;
+    color: whitesmoke;
+    box-shadow:0px 4px 0px #D1B757;
+    text-decoration-line: none;
+    font-family: 'Agbalumo';
+}
+#submitbtn:active {
+    top: 4px; 
+    box-shadow: 0 0 #ff4c4b; 
+    background-color: #D6BB59;
+}
 /* setup.html */
-#setup {  /* setup.html 배경 */
+#setup {
     background: rgba(0, 0, 0, 0.7) url('image/Lo-Fi Coffee, Bogdan mB0sco.gif');
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +117,7 @@ article h1, footer h1 {
     position: relative;
     color: white;
     font-size: 150%;
-    /*글꼴 바꾸고 싶음*/
+    font-family: 'Agbalumo';
 }
 #bts {
     object-fit: cover;
@@ -72,7 +129,8 @@ article h1, footer h1 {
 #youtube > li > a > span {
     position: relative;
     color: white;
-    font-size: 100%;
+    font-size: 130%;
+    font-family: 'Nanum Gothic';
 }
 /*puth.html*/
 #puthpage {
@@ -82,27 +140,75 @@ article h1, footer h1 {
     background-blend-mode: darken;
     overflow: hidden;
 }
-#puthpage > li {
-    display: inline-block;
-    position: relative;
+.gamebtn {
+    background-color:transparent;
+    border: none;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    position: fixed;
+    top: 50px;
+    left: 90%;
 }
-#puthpage img {
+.rebtn {
+    background-color:transparent;
+    border: none;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    position: fixed;
+    top: 50px;
+    left: 85%;
+}
+#layout {
+    overflow: hidden;
+    text-align: center;
+}
+.list {
+    float: left;
+    position: relative;
+    padding-top: 30px;
+    margin-left: 100px;
+    /* margin-right: 100px; */
+}
+.list li{
+    list-style-type: none;
+}
+#first {
+    text-align: right;
+}
+#layout img {
     width: 300px;
     height: 300px;
-    margin-top: 50px;
-    margin-left: 100px;
+    object-fit: cover;
 }
-#puthpage > article > span {
+#name {
     position: relative;
-}
-#puthpage section p {
     color: white;
-    font-size: 100%;
-    margin-left: 50px;
+    font-size: 150%;
+    font-family: 'Agbalumo';
 }
-#puthpage #name {
+#layout p {
+    text-align: left;
+    color: white;
+    font-family: 'Nanum Gothic';
+    font-size: 100%;
+    line-height: 2em;
+}
+.mood {
+    list-style-type: none;
+    font-family: 'Agbalumo';
+    text-align: center;
+    color: white;
+    font-size: 130%;
+    line-height: 1.5em;
+}
+.mood ul, .mood li {
     position: relative;
 }
+#rainy {color: blue;}
+#study {color: yellow;}
+#happy {color: red;}
 /*bts.html*/
 #btspage {
     background: rgba(0, 0, 0, 0.8) url('image/btsbg.jpg');
@@ -111,7 +217,6 @@ article h1, footer h1 {
     background-blend-mode: darken;
     overflow: hidden;
 }
-
 /*lauv.html*/
 #lauvpage {
     background: rgba(0, 0, 0, 0.8) url('image/lauvbg.jpg');
@@ -120,10 +225,9 @@ article h1, footer h1 {
     background-blend-mode: darken;
     overflow: hidden;
 }
-
 /*gamemusic.html*/
 #lostark {
-    background: url('image/lostark.jpg');
+    background: url('image/lostark.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
